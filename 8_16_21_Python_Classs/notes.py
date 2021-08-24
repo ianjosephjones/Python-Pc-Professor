@@ -103,7 +103,7 @@ while guess != number
 # Add a feature to print out your list of guesses, in order, when the game is over
 # Also, don't crash if the user enters a non-number
 
-
+'''
 
 import random
 guesses = []
@@ -124,4 +124,4 @@ while guess != the_number:
         print("That guess was not valid")
         
 print(f"Your guesses were {guesses}")
-'''
+
